@@ -1,0 +1,20 @@
+/*
+Theme Name: MyTheme
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_content {
+    text-align: center;
+    color: brown;
+}
+#my_top_menu {
+    list-style-type: none;
+    margin-right: 5%;
+}
+
+#my_top_menu li a {
+    text-decoration: none;
+}
