@@ -10,11 +10,12 @@ Theme Name: MyTheme
     text-align: center;
     color: brown;
 }
-#my_top_menu {
+/* #my_top_menu {
     list-style-type: none;
     margin-right: 5%;
-}
-
+    display: flex;
+    justify-content: space-around;
+} */
 #my_top_menu li a {
     text-decoration: none;
 }
