@@ -18,7 +18,7 @@ add_action('wp_enqueue_scripts', 'add_scripts_and_styles');
 
 function add_scripts_and_styles() {
     wp_enqueue_script('bs_js', get_template_directory_uri().'/bs/js/bootstrap.min.js');
-    wp_enqueue_script('main', get_template_directory_uri().'/js/main.js', array('bs_js'), null, true);
+    wp_enqueue_script('main', get_template_directory_uri().'/js/main.js', array('bs_js'), null, 'footer');
     wp_enqueue_style('bs_css', get_template_directory_uri().'/bs/css/bootstrap.min.css');
     wp_enqueue_style('style', get_stylesheet_uri());
 }
